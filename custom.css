@@ -1,3 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
-
+.jumbotron{
+	background-color: #eec584;
+}
+.bg-custom{
+	background-color:#8da9c4;
+}
+.card-header{
+	background-color:#cacaaa;
+}
+.card-custom{
+	background-color:#cacaaa
+}
