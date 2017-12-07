@@ -13,19 +13,22 @@
 <div class="container">
 	<nav class="  navbar-expand navbar-light bg-light">
 		<ul class="nav navbar-light">
-  <li class="nav-link">
-    <a class="navbar-brand" href="index.html">Home</a>
-  </li>
-  <li class="nav-link">
-    <a class="navbar-brand" href="video.html">Video</a>
-  </li>
-  <li class="nav-link">
-    <a class="navbar-brand" href="#">random pagina 2</a>
-  </li>
-  <li class="nav-link">
-    <a class="navbar-brand" href="#">Contact</a>
-  </li>
-</ul>
+			<li class="nav-link">
+				<a class="navbar-brand" href="index.html">Home</a>
+			</li>
+
+			<li class="nav-link">
+				<a class="navbar-brand" href="video.html">Video</a>
+			</li>
+
+			<li class="nav-link">
+				<a class="navbar-brand" href="#">random pagina 2</a>
+			</li>
+
+			<li class="nav-link">
+				<a class="navbar-brand" href="#">Contact</a>
+			</li>
+		</ul>
 	</nav>		
 
 	<br>
@@ -36,27 +39,28 @@
 	
 	</div>
 	
-	<form class="form-horizontal" role="form" method="post" action="contact.php">
-	
-		<div class="form-group">
-		<label for ="naam">Vul hier je naam in:</label>
-		<input type="text" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Jouw naam">
-	</div>
-	
-	<div class="form-group">
-		<label for ="Email">Vul hier je e-mail adres in:</label>
-		<input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="jouw@mail.com">
-	</div>
-	
-	<div class="form group">
-		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Schrijf hier je boodschap, vraag, irritatie of compliment!"></textarea>
+	<form class="form-group" method="post" action="contact.php">
 
-	</div><br>
-	<div class="form-group">
-	<button type="submit" class="btn btn-primary">Stuur bericht</button>
-	</div>
+		<div class="form-group">
+			<label for ="naam">Vul hier je naam in:</label>
+			<input type="text" class="form-control" name="Name" aria-describedby="nameHelp" placeholder="Jouw naam">
 		</div>
-</form>
-		
+
+		<div class="form-group">
+			<label for ="Email">Vul hier je e-mail adres in:</label>
+			<input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="jouw@mail.com">
+		</div>
+
+		<div class="form group">
+			<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Schrijf hier je boodschap, vraag, irritatie of compliment!"></textarea>
+		</div>
+
+		<br>
+
+		<div class="form-group">
+			<input type="submit" class="btn btn-primary" value="Stuur bericht">
+		</div>
+	</form>
+</div>
 </body>
 </html>
