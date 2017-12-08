@@ -3,6 +3,7 @@
 <head>
 
     <link href="bootstrap.css" rel=stylesheet>
+	<link href="custom.css" rel="stylesheet">
 
     <meta charset="utf-8">
     <title>De Tweede Ronde for IUW</title>
@@ -10,7 +11,7 @@
 
 <body>
 <div class="container">
-    <nav class="  navbar-expand navbar-light bg-light">
+    <nav class="navbar-expand navbar-light bg-custom">
         <ul class="nav navbar-light">
             <li class="nav-link">
                 <a class="navbar-brand" href="index.html">Home</a>
