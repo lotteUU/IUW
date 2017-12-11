@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*V U L    D E     P I X E L S    Z E L F     I N ! ! ! !
+/* Let op: getal en "px" moeten aan elkaar, dus bv. 1000px (niet 1000 px)
+
+/*we gebruiken hier device width omdat de resoluties af kunnen wijken*/
+
+
+/* Smartphones (portrait).minimum iPhone 4 maximum iphone 6s Plus*/
+
+@media (min-width :320px) 
+and	(max-width :414px) 
+{
+/* Styles */
+
+	body{background-color:#a1869e;}
+
+
+}
+
+
+/* Tablet (portrait). minimum ipad 1, maximum ipad pro*/
+@media (min-width : 768px)  
+and (max-width : 1024px){
+/* Styles */
+body{
+		background-color:#2B2B2B;
+	}
+
+
+}
+
+/* Laptop/PC.  getest op HP pavillion 15" in mozilla Firefox*/
+@media(min-width : 1025px )  
+and (max-width : 2000px ) 
+{
+/* Styles */
+	body{
+		background-color:#A7A7A7;
+	}
+
+}
+
