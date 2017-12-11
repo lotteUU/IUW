@@ -21,7 +21,7 @@ and	(max-width :414px)
 }
 
 
-/* Tablet (portrait). minimum ipad 1, maximum*/
+/* Tablet (portrait). minimum ipad 1, maximum ipad pro*/
 @media (min-width : 768px)  
 and (max-width : 1024px){
 /* Styles */
