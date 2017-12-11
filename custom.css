@@ -1,14 +1,23 @@
 @charset "utf-8";
 /* CSS Document */
 .jumbotron{
-	background-color: #eec584;
+	background-color: #abc4ab
 }
 .bg-custom{
-	background-color:#8da9c4;
+	background-color:#80475e;
 }
 .card-header{
-	background-color:#cacaaa;
+	background-color:#bdd4e7;
+}
+.card-header h2{
+	color:white;
 }
 .card-custom{
-	background-color:#CACAAA
+	background-color:#bdd4e7
+}
+.nav-link :hover{
+	background-color:#a1869e;
+}
+.nav-link:active{
+	background-color: #a1869e;
 }
