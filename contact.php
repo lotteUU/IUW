@@ -12,23 +12,22 @@
 
 <body>
 <div class="container">
+     <ul class="nav navbar-dark bg-custom">
+            <li class="nav-link">
+                <a class="navbar-brand" href="index.html">Home</a>
+            </li>
+            <li class="nav-link">
+                <a class="navbar-brand" href="#">Video</a>
+            </li>
+            <li class="nav-link">
+                <a class="navbar-brand" href="#">random pagina 2</a>
+            </li>
+            <li class="nav-link">
+                <a class="navbar-brand" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </br>
 
-	<nav class="  navbar-expand navbar-light bg-light">
-		<ul class="nav navbar-light">
-  <li class="nav-link">
-    <a class="navbar-brand" href="index.html">Home</a>
-  </li>
-  <li class="nav-link">
-    <a class="navbar-brand" href="#">Video</a>
-  </li>
-  <li class="nav-link">
-    <a class="navbar-brand" href="#">random pagina 2</a>
-  </li>
-  <li class="nav-link">
-    <a class="navbar-brand" href="contact.html">Contact</a>
-  </li>
-</ul>
-	</nav>		
 
 	</br>
 	
