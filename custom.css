@@ -9,9 +9,7 @@
 .card-header{
 	background-color:#bdd4e7;
 }
-.card-header h2{
-	color:white;
-}
+
 .card-custom{
 	background-color:#bdd4e7;
 }
@@ -23,4 +21,6 @@
 }
 body{ 
 background-color:#abababab;
+}
+.nav{
 }
