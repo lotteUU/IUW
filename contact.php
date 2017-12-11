@@ -1,15 +1,18 @@
 <!doctype html>
 <html>
 <head>
-	
-	<link href="bootstrap.css" rel=stylesheet>
-	
-<meta charset="utf-8">
-<title>De Tweede Ronde for IUW</title>
+
+    <link href="bootstrap.css" rel=stylesheet>
+	<link href="custom.css" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <title>De Tweede Ronde for IUW</title>
+
 </head>
 
 <body>
 <div class="container">
+
 	<nav class="  navbar-expand navbar-light bg-light">
 		<ul class="nav navbar-light">
   <li class="nav-link">
