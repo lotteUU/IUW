@@ -1,14 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto|Spectral+SC');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+
+
 
 .jumbotron{
 	background-color: #bdd4e7;
-	font-family: 'Roboto', sans-serif;
 }
 .nav{
-	font-family: 'Spectral SC', serif;
+	font-family: 'Oswald', sans-serif;
 }
 .bg-custom{
 	background-color:#80475e;
@@ -27,7 +28,12 @@
 	background-color: #a1869e;
 }
 body{ 
+<<<<<<< HEAD
 background-color:#abababab;
 }
 .nav{
+=======
+	background-color:#abababab;
+	font-family: 'Roboto', sans-serif;
+>>>>>>> Samuel
 }
