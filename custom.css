@@ -1,7 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+
+
+
 .jumbotron{
 	background-color: #bdd4e7;
+}
+.nav{
+	font-family: 'Oswald', sans-serif;
 }
 .bg-custom{
 	background-color:#80475e;
@@ -9,9 +17,7 @@
 .card-header{
 	background-color:#bdd4e7;
 }
-.card-header h2{
-	color:white;
-}
+
 .card-custom{
 	background-color:#bdd4e7;
 }
@@ -23,4 +29,8 @@
 }
 body{ 
 background-color:#abababab;
+}
+.nav{
+	background-color:#abababab;
+	font-family: 'Roboto', sans-serif;
 }
