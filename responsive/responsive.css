@@ -10,36 +10,31 @@
 
 /* Smartphones (portrait).minimum iPhone 4 maximum iphone 6s Plus*/
 
-@media only screen 
-and (min-width :320 px) 
-and (max-width :414 px) 
+@media (min-width :320px) 
+and	(max-width :414px) 
 {
 /* Styles */
-	body{
-		background-color:#a1869e;
-	}
+
+	body{background-color:#a1869e;}
 
 
 }
 
 
 /* Tablet (portrait). minimum ipad 1, maximum*/
-@media only screen
-and (min-width : 768 px)  
-and (max-width : 1024 px)
-{
+@media (min-width : 768px)  
+and (max-width : 1024px){
 /* Styles */
-	body{
+body{
 		background-color:#2B2B2B;
 	}
 
 
 }
 
-/* Laptop/PC. Vertel hier ook welke je gekozen hebt ----------- */
-@media only screen
-and (min-width 1024: px)  
-and (max-width : 2000 px) 
+/* Laptop/PC.  getest op HP pavillion 15" in mozilla Firefox*/
+@media(min-width : 1025px )  
+and (max-width : 2000px ) 
 {
 /* Styles */
 	body{
